@@ -29,10 +29,9 @@
  *************************************************************************************/
 define(['N/record'],
     /**
- * @param{log} log
  * @param{record} record
  */
-    (log, record, search) => {
+    (record) => {
         /**
          * Defines the function definition that is executed before record is loaded.
          * @param {Object} scriptContext
